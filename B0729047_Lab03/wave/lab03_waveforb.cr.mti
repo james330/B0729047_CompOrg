@@ -1,0 +1,15 @@
+C:/B0729047_Lab03/B0729047_lab03_3/lab03.v {1 {vlog -work work -nocovercells C:/B0729047_Lab03/B0729047_lab03_3/lab03.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module lab03
+
+Top level modules:
+	lab03
+
+} {} {}} C:/B0729047_Lab03/wave/tb.v {1 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/tb.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

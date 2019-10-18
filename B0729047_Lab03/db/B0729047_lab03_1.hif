@@ -1,0 +1,63 @@
+Quartus II
+Version 10.0 Build 218 06/27/2010 SJ Web Edition
+13
+1247
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+B0729047_lab03_1
+# storage
+db|B0729047_lab03_1.(0).cnf
+db|B0729047_lab03_1.(0).cnf
+# case_insensitive
+# source_file
+b0729047_lab03_1.bdf
+2571727f9ac77d9960a5cdc8513cd971
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+21mux
+# storage
+db|B0729047_lab03_1.(1).cnf
+db|B0729047_lab03_1.(1).cnf
+# case_insensitive
+# source_file
+|altera|10.0|quartus|libraries|others|maxplus2|21mux.bdf
+bccbea98b91436c0e11f107c4fbff16a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+21mux:inst
+}
+# macro_sequence
+
+# end
+# complete
+

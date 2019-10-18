@@ -1,0 +1,20 @@
+C:/B0729047_Lab03/wave/b0729047_lab03_1_waveform_inst.v {0 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/b0729047_lab03_1_waveform_inst.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/B0729047_Lab03/wave/b0729047_lab03_1_waveform_inst.v(19): near "B0729047_lab03_1": syntax error, unexpected "IDENTIFIER", expecting "class"
+
+} {3.0 4.0} {}} C:/B0729047_Lab03/wave/the21mux_inst.v {0 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/the21mux_inst.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/B0729047_Lab03/wave/the21mux_inst.v(19): near "21": syntax error, unexpected "INTEGER NUMBER", expecting "class"
+
+} {3.0 4.0} {}} C:/B0729047_Lab03/wave/b0729047_lab03_2_waveform_inst.v {0 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/b0729047_lab03_2_waveform_inst.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/B0729047_Lab03/wave/b0729047_lab03_2_waveform_inst.v(19): near "B0729047_lab03_2": syntax error, unexpected "IDENTIFIER", expecting "class"
+
+} {3.0 4.0} {}} C:/B0729047_Lab03/wave/tb.v {1 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/tb.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

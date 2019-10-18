@@ -1,0 +1,155 @@
+|B0729047_lab03_2
+y1 <= B0729047_lab03_1:inst.output
+x1 => B0729047_lab03_1:inst.input
+load => B0729047_lab03_1:inst.load
+load => B0729047_lab03_1:inst13.load
+load => B0729047_lab03_1:inst14.load
+load => B0729047_lab03_1:inst15.load
+load => B0729047_lab03_1:inst16.load
+load => B0729047_lab03_1:inst17.load
+load => B0729047_lab03_1:inst18.load
+load => B0729047_lab03_1:inst19.load
+clk => B0729047_lab03_1:inst.clk
+clk => B0729047_lab03_1:inst13.clk
+clk => B0729047_lab03_1:inst14.clk
+clk => B0729047_lab03_1:inst15.clk
+clk => B0729047_lab03_1:inst16.clk
+clk => B0729047_lab03_1:inst17.clk
+clk => B0729047_lab03_1:inst18.clk
+clk => B0729047_lab03_1:inst19.clk
+y2 <= B0729047_lab03_1:inst13.output
+x2 => B0729047_lab03_1:inst13.input
+y3 <= B0729047_lab03_1:inst14.output
+x3 => B0729047_lab03_1:inst14.input
+y4 <= B0729047_lab03_1:inst15.output
+x4 => B0729047_lab03_1:inst15.input
+y5 <= B0729047_lab03_1:inst16.output
+x5 => B0729047_lab03_1:inst16.input
+y6 <= B0729047_lab03_1:inst17.output
+x6 => B0729047_lab03_1:inst17.input
+y7 <= B0729047_lab03_1:inst18.output
+x7 => B0729047_lab03_1:inst18.input
+y8 <= B0729047_lab03_1:inst19.output
+x8 => B0729047_lab03_1:inst19.input
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst13
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst13|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst14
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst14|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst15
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst15|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst16
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst16|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst17
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst17|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst18
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst18|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst19
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_2|B0729047_lab03_1:inst19|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

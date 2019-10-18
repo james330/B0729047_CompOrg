@@ -1,0 +1,15 @@
+|B0729047_lab03_1
+output <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst1.CLK
+load => 21mux:inst.S
+input => 21mux:inst.B
+
+
+|B0729047_lab03_1|21mux:inst
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

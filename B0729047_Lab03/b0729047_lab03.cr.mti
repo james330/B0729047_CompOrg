@@ -1,0 +1,10 @@
+C:/B0729047_Lab03/tb.v {0 {vcom -work work -2002 -explicit C:/B0729047_Lab03/tb.v
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+** Error: C:/B0729047_Lab03/tb.v(2): near "/": syntax error
+
+} {4.0 5.0} {}} C:/B0729047_Lab03/wave/B0729047_lab03_2_waveform_inst.v {0 {vlog -work work -nocovercells C:/B0729047_Lab03/wave/B0729047_lab03_2_waveform_inst.v
+Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+** Error: C:/B0729047_Lab03/wave/B0729047_lab03_2_waveform_inst.v(19): near "B0729047_lab03_2": syntax error, unexpected "IDENTIFIER", expecting "class"
+
+} {3.0 4.0} {}}
