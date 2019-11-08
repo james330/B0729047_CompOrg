@@ -1,0 +1,18 @@
+|lab01
+PL <= PS.DB_MAX_OUTPUT_PORT_TYPE
+PS => PL.DATAIN
+PS => inst5.IN0
+LL <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+LS => inst2.IN0
+LS => inst.IN0
+LS => inst9.IN0
+LS => inst10.IN0
+RS => inst2.IN1
+RS => inst1.IN0
+RS => inst9.IN1
+RS => inst06.IN1
+RR => inst2.IN2
+RR => inst11.IN0
+RL <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
