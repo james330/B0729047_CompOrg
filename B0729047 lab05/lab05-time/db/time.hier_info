@@ -1,0 +1,105 @@
+|time
+output <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+clk => A3.CLK
+clk => A2.CLK
+clk => A1.CLK
+clk => A0.CLK
+clk => A5.CLK
+clk => A4.CLK
+clk => A8.CLK
+clk => A7.CLK
+clk => A6.CLK
+clk => A9.CLK
+input => inst1.IN1
+
+
+|time|mux21:inst8
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst5
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst3
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst14
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst11
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst25
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst21
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst18
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|time|mux21:inst28
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+

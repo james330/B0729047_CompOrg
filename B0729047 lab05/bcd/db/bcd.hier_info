@@ -1,0 +1,49 @@
+|bcd
+Q3 <= A3.DB_MAX_OUTPUT_PORT_TYPE
+clk => A3.CLK
+clk => A2.CLK
+clk => A1.CLK
+clk => A0.CLK
+input => inst.IN1
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd|mux21:inst7
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|bcd|mux21:inst4
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|bcd|mux21:inst2
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|bcd|mux21:inst1
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+

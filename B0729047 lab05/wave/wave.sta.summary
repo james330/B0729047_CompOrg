@@ -1,0 +1,325 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'mod6:inst2|A0'
+Slack : -3.177
+TNS   : -11.297
+
+Type  : Slow 1100mV 85C Model Setup 'bcd:inst4|A0'
+Slack : -2.941
+TNS   : -7.518
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.361
+TNS   : -9.052
+
+Type  : Slow 1100mV 85C Model Setup 'bcd:inst5|A0'
+Slack : -1.905
+TNS   : -4.918
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'mod6:inst2|A0'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'bcd:inst4|A0'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'bcd:inst5|A0'
+Slack : 1.060
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clk'
+Slack : -7.146
+TNS   : -28.570
+
+Type  : Slow 1100mV 85C Model Recovery 'mod6:inst2|A0'
+Slack : -4.623
+TNS   : -18.478
+
+Type  : Slow 1100mV 85C Model Recovery 'bcd:inst4|A0'
+Slack : -4.174
+TNS   : -12.512
+
+Type  : Slow 1100mV 85C Model Recovery 'bcd:inst5|A0'
+Slack : -1.864
+TNS   : -5.585
+
+Type  : Slow 1100mV 85C Model Removal 'mod6:inst2|A0'
+Slack : 0.893
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'bcd:inst4|A0'
+Slack : 1.125
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'bcd:inst5|A0'
+Slack : 1.604
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'clk'
+Slack : 1.800
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'mod6:inst2|A0'
+Slack : -0.724
+TNS   : -4.870
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -4.434
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'bcd:inst4|A0'
+Slack : -0.724
+TNS   : -3.338
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'bcd:inst5|A0'
+Slack : -0.724
+TNS   : -3.332
+
+Type  : Slow 1100mV 0C Model Setup 'mod6:inst2|A0'
+Slack : -3.161
+TNS   : -11.117
+
+Type  : Slow 1100mV 0C Model Setup 'bcd:inst4|A0'
+Slack : -2.920
+TNS   : -7.341
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -1.978
+TNS   : -7.501
+
+Type  : Slow 1100mV 0C Model Setup 'bcd:inst5|A0'
+Slack : -1.944
+TNS   : -5.006
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -0.102
+TNS   : -0.296
+
+Type  : Slow 1100mV 0C Model Hold 'mod6:inst2|A0'
+Slack : 0.635
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'bcd:inst4|A0'
+Slack : 0.736
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'bcd:inst5|A0'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clk'
+Slack : -6.882
+TNS   : -27.510
+
+Type  : Slow 1100mV 0C Model Recovery 'mod6:inst2|A0'
+Slack : -4.506
+TNS   : -18.007
+
+Type  : Slow 1100mV 0C Model Recovery 'bcd:inst4|A0'
+Slack : -4.096
+TNS   : -12.273
+
+Type  : Slow 1100mV 0C Model Recovery 'bcd:inst5|A0'
+Slack : -1.750
+TNS   : -5.241
+
+Type  : Slow 1100mV 0C Model Removal 'mod6:inst2|A0'
+Slack : 0.814
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'bcd:inst4|A0'
+Slack : 0.991
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'clk'
+Slack : 1.464
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'bcd:inst5|A0'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'mod6:inst2|A0'
+Slack : -0.724
+TNS   : -4.914
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -4.438
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'bcd:inst4|A0'
+Slack : -0.724
+TNS   : -3.365
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'bcd:inst5|A0'
+Slack : -0.724
+TNS   : -3.326
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.734
+TNS   : -6.284
+
+Type  : Fast 1100mV 85C Model Setup 'mod6:inst2|A0'
+Slack : -1.290
+TNS   : -5.001
+
+Type  : Fast 1100mV 85C Model Setup 'bcd:inst4|A0'
+Slack : -1.233
+TNS   : -3.577
+
+Type  : Fast 1100mV 85C Model Setup 'bcd:inst5|A0'
+Slack : -0.442
+TNS   : -1.060
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'mod6:inst2|A0'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'bcd:inst5|A0'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'bcd:inst4|A0'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clk'
+Slack : -3.240
+TNS   : -12.958
+
+Type  : Fast 1100mV 85C Model Recovery 'mod6:inst2|A0'
+Slack : -2.087
+TNS   : -8.342
+
+Type  : Fast 1100mV 85C Model Recovery 'bcd:inst4|A0'
+Slack : -1.696
+TNS   : -5.087
+
+Type  : Fast 1100mV 85C Model Recovery 'bcd:inst5|A0'
+Slack : -0.375
+TNS   : -1.124
+
+Type  : Fast 1100mV 85C Model Removal 'mod6:inst2|A0'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'bcd:inst4|A0'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'bcd:inst5|A0'
+Slack : 0.549
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'clk'
+Slack : 1.176
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.088
+TNS   : -0.348
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'mod6:inst2|A0'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'bcd:inst4|A0'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'bcd:inst5|A0'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.295
+TNS   : -4.654
+
+Type  : Fast 1100mV 0C Model Setup 'mod6:inst2|A0'
+Slack : -1.166
+TNS   : -4.495
+
+Type  : Fast 1100mV 0C Model Setup 'bcd:inst4|A0'
+Slack : -1.093
+TNS   : -3.180
+
+Type  : Fast 1100mV 0C Model Setup 'bcd:inst5|A0'
+Slack : -0.382
+TNS   : -0.884
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'mod6:inst2|A0'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'bcd:inst4|A0'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'bcd:inst5|A0'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clk'
+Slack : -2.728
+TNS   : -10.910
+
+Type  : Fast 1100mV 0C Model Recovery 'mod6:inst2|A0'
+Slack : -1.778
+TNS   : -7.110
+
+Type  : Fast 1100mV 0C Model Recovery 'bcd:inst4|A0'
+Slack : -1.433
+TNS   : -4.297
+
+Type  : Fast 1100mV 0C Model Recovery 'bcd:inst5|A0'
+Slack : -0.304
+TNS   : -0.909
+
+Type  : Fast 1100mV 0C Model Removal 'mod6:inst2|A0'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'bcd:inst4|A0'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'bcd:inst5|A0'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'clk'
+Slack : 0.929
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.086
+TNS   : -0.340
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'mod6:inst2|A0'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'bcd:inst4|A0'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'bcd:inst5|A0'
+Slack : 0.157
+TNS   : 0.000
+
+------------------------------------------------------------

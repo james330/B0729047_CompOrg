@@ -1,0 +1,38 @@
+|mod6
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+input => A2.CLK
+input => A1.CLK
+input => A0.CLK
+input => inst1.IN1
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod6|mux21:inst4
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|mod6|mux21:inst2
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|mod6|mux21:inst
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
