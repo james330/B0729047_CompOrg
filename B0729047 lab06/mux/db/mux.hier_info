@@ -1,0 +1,8 @@
+|mux
+output <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+slect => inst3.IN0
+slect => inst.IN1
+A0 => inst1.IN1
+A1 => inst.IN0
+
+

@@ -1,0 +1,103 @@
+Quartus II
+Version 10.0 Build 218 06/27/2010 SJ Web Edition
+13
+1247
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lab06
+# storage
+db|lab06.(0).cnf
+db|lab06.(0).cnf
+# case_insensitive
+# source_file
+lab06.bdf
+a72545d118432be695278120ee6277b3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+adder
+# storage
+db|lab06.(1).cnf
+db|lab06.(1).cnf
+# case_insensitive
+# source_file
+add|adder.bdf
+c440a7e5446951af80733d41f6a9b46
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+adder:inst
+}
+# macro_sequence
+
+# end
+# entity
+loadDff
+# storage
+db|lab06.(2).cnf
+db|lab06.(2).cnf
+# case_insensitive
+# source_file
+ldff|loaddff.bdf
+9d28337fb8dec4922d22e115953e1f85
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+loadDff:Q0
+}
+# macro_sequence
+
+# end
+# entity
+mux
+# storage
+db|lab06.(3).cnf
+db|lab06.(3).cnf
+# case_insensitive
+# source_file
+mux|mux.bdf
+c1577fd3350cd46f51be641c77d975
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+loadDff:Q0|mux:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

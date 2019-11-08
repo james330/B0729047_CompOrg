@@ -1,0 +1,35 @@
+|lab06
+D0 => loadDff:Q0.load
+D0 => adder:inst.B
+
+
+|lab06|adder:inst
+sum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst4.IN1
+A => inst3.IN1
+B => inst.IN1
+B => inst4.IN0
+B => inst5.IN0
+cin => inst1.IN1
+cin => inst5.IN1
+cin => inst3.IN0
+carry <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab06|loadDff:Q0
+output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clear => inst.ACLR
+input => inst.CLK
+input => mux:inst1.A1
+load => mux:inst1.slect
+
+
+|lab06|loadDff:Q0|mux:inst1
+output <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+slect => inst3.IN0
+slect => inst.IN1
+A0 => inst1.IN1
+A1 => inst.IN0
+
+
