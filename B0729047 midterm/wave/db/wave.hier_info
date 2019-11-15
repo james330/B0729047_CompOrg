@@ -1,0 +1,290 @@
+|wave
+QA0 <= 7447:inst4.OA
+clk => bcd:inst3.input
+QA6 <= 7447:inst4.OG
+QA5 <= 7447:inst4.OF
+QA4 <= 7447:inst4.OE
+QA3 <= 7447:inst4.OD
+QA2 <= 7447:inst4.OC
+QA1 <= 7447:inst4.OB
+QB6 <= 7447:inst5.OG
+QB5 <= 7447:inst5.OF
+QB4 <= 7447:inst5.OE
+QB3 <= 7447:inst5.OD
+QB2 <= 7447:inst5.OC
+QB1 <= 7447:inst5.OB
+QB0 <= 7447:inst5.OA
+QC6 <= 7447:inst7.OG
+QC5 <= 7447:inst7.OF
+QC4 <= 7447:inst7.OE
+QC3 <= 7447:inst7.OD
+QC2 <= 7447:inst7.OC
+QC1 <= 7447:inst7.OB
+QC0 <= 7447:inst7.OA
+QD6 <= 7447:inst9.OG
+QD5 <= 7447:inst9.OF
+QD4 <= 7447:inst9.OE
+QD3 <= 7447:inst9.OD
+QD2 <= 7447:inst9.OC
+QD1 <= 7447:inst9.OB
+QD0 <= 7447:inst9.OA
+
+
+|wave|7447:inst4
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|bcd:inst3
+Q3 <= A3.DB_MAX_OUTPUT_PORT_TYPE
+input => A3.CLK
+input => A2.CLK
+input => A0.CLK
+input => A1.CLK
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|bcd:inst3|mux21:inst5
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst3|mux21:inst6
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst3|mux21:inst8
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst3|mux21:inst7
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|7447:inst5
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|mod6:inst8
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+input => A2.CLK
+input => A0.CLK
+input => A1.CLK
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|mod6:inst8|mux21:inst1
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|mod6:inst8|mux21:inst3
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|mod6:inst8|mux21:inst2
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|7447:inst7
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|bcd:inst6
+Q3 <= A3.DB_MAX_OUTPUT_PORT_TYPE
+input => A3.CLK
+input => A2.CLK
+input => A0.CLK
+input => A1.CLK
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|bcd:inst6|mux21:inst5
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst6|mux21:inst6
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst6|mux21:inst8
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|bcd:inst6|mux21:inst7
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|7447:inst9
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|mod6:inst2
+Q2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+input => A2.CLK
+input => A0.CLK
+input => A1.CLK
+Q1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+up <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wave|mod6:inst2|mux21:inst1
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|mod6:inst2|mux21:inst3
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
+|wave|mod6:inst2|mux21:inst2
+output <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst2.IN1
+S => inst7.IN0
+S => inst2.IN0
+B => inst.IN0
+
+
